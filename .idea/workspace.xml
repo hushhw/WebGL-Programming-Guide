@@ -36,8 +36,8 @@
       <file leaf-file-name="RotatedTriangle.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11RotatedTriangle/RotatedTriangle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="325">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name="HelloCanvas2d.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00HelloCanvas2d/HelloCanvas2d.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,8 @@
       <file leaf-file-name="HelloCanvas2d.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00HelloCanvas2d/HelloCanvas2d.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            <state relative-caret-position="375">
+              <caret line="15" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/TranslatedTriangle/TranslatedTriangle.html" />
         <option value="$PROJECT_DIR$/TranslatedTriangle/TranslatedTriangle.js" />
         <option value="$PROJECT_DIR$/11RotatedTriangle/RotatedTriangle.html" />
-        <option value="$PROJECT_DIR$/00HelloCanvas2d/HelloCanvas2d.html" />
         <option value="$PROJECT_DIR$/00HelloCanvas2d/HelloCanvas2d.js" />
+        <option value="$PROJECT_DIR$/00HelloCanvas2d/HelloCanvas2d.html" />
       </list>
     </option>
   </component>
@@ -275,12 +275,12 @@
       <workItem from="1513068136362" duration="8823000" />
       <workItem from="1513123433657" duration="5658000" />
       <workItem from="1513221397859" duration="360000" />
-      <workItem from="1513426736990" duration="297000" />
+      <workItem from="1513426736990" duration="1377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15138000" />
+    <option name="totallyTimeSpent" value="16218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -410,24 +410,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11RotatedTriangle/RotatedTriangle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="325">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/00HelloCanvas2d/HelloCanvas2d.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        <state relative-caret-position="375">
+          <caret line="15" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/00HelloCanvas2d/HelloCanvas2d.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding />
         </state>
       </provider>
