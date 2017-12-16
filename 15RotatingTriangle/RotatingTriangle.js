@@ -1,13 +1,8 @@
 /**
  * Created by hushhw on 17/12/14.
  */
-//RotatedTriangle.js
-// 变换矩阵旋转
-
+//RotatingTriangle.js
 var VSHADER_SOURCE =
-    //x' = x cos b - y sin b
-    //y' = x sin b + y cosb
-    //z' = z
     'attribute vec4 a_Position;\n' +
     'uniform mat4 u_ModelMatrix;\n' +
     'void main() {\n' +
@@ -19,21 +14,23 @@ var FSHADER_SOURCE=
     'gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);'+
     '}';
 
-function main(){
+var ANFLE_STEP = 45.0;
+
+function main() {
 
     var canvas = document.getElementById("webgl");
-    if(!canvas){
+    if (!canvas) {
         console.log("Failed to retrieve the <canvas> element");
         return;
     }
 
     var gl = getWebGLContext(canvas);
-    if(!gl){
+    if (!gl) {
         console.log("Failed to get the rendering context for WebGL");
         return;
     }
 
-    if(!initShaders(gl,VSHADER_SOURCE,FSHADER_SOURCE)){
+    if (!initShaders(gl, VSHADER_SOURCE, FSHADER_SOURCE)) {
         console.log("Failed to initialize shaders.");
         return;
     }
@@ -45,27 +42,23 @@ function main(){
         return;
     }
 
-    var modelMatrix = new Matrix4();
-
-    var ANGLE = 60.0;
-    var Tx = 0.5;
-
-    modelMatrix.setRotate(ANGLE, 0, 0, 1);
-    modelMatrix.translate(Tx, 0, 0);
+    gl.clearColor(0.0, 0.0, 0.0, 1.0);
 
     var u_ModelMatrix = gl.getUniformLocation(gl.program, 'u_ModelMatrix');
-    if(u_ModelMatrix < 0){
+    if (u_ModelMatrix < 0) {
         console.log("Failed to get the storage location of u_xformMatrix");
         return;
     }
+    var modelMatrix = new Matrix4();
 
-    gl.uniformMatrix4fv(u_ModelMatrix, false, modelMatrix.elements);
+    var currentAngle = 0.0;
 
-    gl.clearColor(0.0, 0.0, 0.0, 1.0);
-
-    gl.clear(gl.COLOR_BUFFER_BIT);
-
-    gl.drawArrays(gl.TRIANGLES, 0, n);
+    var tick = function () {
+        currentAngle = animate(currentAngle);
+        draw(gl, n, currentAngle, modelMatrix, u_ModelMatrix);
+        requestAnimationFrame(tick);
+    };
+    tick();
 }
 
 function initVertexBuffers(gl) {
@@ -100,4 +93,12 @@ function initVertexBuffers(gl) {
     gl.enableVertexAttribArray(a_Position);
 
     return n;
+}
+
+function draw(gl, n, currentAngle, modelMatrix, u_ModelMatrix)
+{
+    modelMatrix.setRotate(currentAngle, 0, 0, 1);
+    gl.uniformMatrix4fv( u_ModelMatrix, false, modelMatrix.elements);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.drawArrays(gl.TRIANGLES, 0, n);
 }
