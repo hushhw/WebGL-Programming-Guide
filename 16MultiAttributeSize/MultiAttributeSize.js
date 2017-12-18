@@ -1,20 +1,19 @@
 /**
  * Created by hushhw on 17/12/14.
  */
-//RotatingTriangle.js
+//MultiAttributeSize.js
 var VSHADER_SOURCE =
     'attribute vec4 a_Position;\n' +
-    'uniform mat4 u_ModelMatrix;\n' +
+    'attribute float a_PointSize;\n' +
     'void main() {\n' +
-    'gl_Position = u_ModelMatrix * a_Position;\n' +
+    'gl_Position = a_Position;\n' +
+    'gl_PointSize = a_PointSize;\n' +
     '}\n';
 
 var FSHADER_SOURCE=
     'void main(){'+
     'gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);'+
     '}';
-
-var ANGLE_STEP = 45.0;
 
 function main() {
 
@@ -42,23 +41,13 @@ function main() {
         return;
     }
 
+    //指定清空<canvas>颜色
     gl.clearColor(0.0, 0.0, 0.0, 1.0);
 
-    var u_ModelMatrix = gl.getUniformLocation(gl.program, 'u_ModelMatrix');
-    if (u_ModelMatrix < 0) {
-        console.log("Failed to get the storage location of u_xformMatrix");
-        return;
-    }
-    var modelMatrix = new Matrix4();
+    //清空<canvas>
+    gl.clear(gl.COLOR_BUFFER_BIT);
 
-    var currentAngle = 0.0;
-
-    var tick = function () {
-        currentAngle = animate(currentAngle);
-        draw(gl, n, currentAngle, modelMatrix, u_ModelMatrix);
-        requestAnimationFrame(tick);
-    };
-    tick();
+    gl.drawArrays(gl.POINTS, 0, n);
 }
 
 function initVertexBuffers(gl) {
@@ -67,12 +56,17 @@ function initVertexBuffers(gl) {
     );
     var n=3; //点的个数
 
+    var sizes = new Float32Array(
+        [10.0, 20.0, 30.0]
+    );
+
     //创建缓冲区对象
     var vertexBuffer = gl.createBuffer();
     if(!vertexBuffer){
         console.log("Failed to create thie buffer object");
         return -1;
     }
+    var sizeBuffer = gl.createBuffer();
 
     //将缓冲区对象保存到目标上
     gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
@@ -92,23 +86,19 @@ function initVertexBuffers(gl) {
     //连接a_Postion变量与分配给它的缓冲区对象
     gl.enableVertexAttribArray(a_Position);
 
+
+
+    gl.bindBuffer(gl.ARRAY_BUFFER, sizeBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, sizes, gl.STATIC_DRAW);
+
+    var a_PointSize = gl.getAttribLocation(gl.program, 'a_PointSize');
+    if(a_Position < 0){
+        console.log("Failed to get the storage location of a_Position");
+        return -1;
+    }
+
+    gl.vertexAttribPointer(a_PointSize, 1, gl.FLOAT, false, 0, 0);
+    gl.enableVertexAttribArray(a_PointSize);
+
     return n;
-}
-
-function draw(gl, n, currentAngle, modelMatrix, u_ModelMatrix)
-{
-    modelMatrix.setRotate(currentAngle, 0, 0, 1);
-    gl.uniformMatrix4fv( u_ModelMatrix, false, modelMatrix.elements);
-    gl.clear(gl.COLOR_BUFFER_BIT);
-    gl.drawArrays(gl.TRIANGLES, 0, n);
-}
-
-var g_last = Date.now();
-function animate(angle)
-{
-    var now = Date.now();
-    var elapsed = now - g_last;
-    g_last = now;
-    var newAngle = angle + (ANGLE_STEP * elapsed) / 1000.0;
-    return newAngle %= 360;
 }
