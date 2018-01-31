@@ -23,101 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LookAtTrianglesWithKeys_ViewVolume.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.html">
+      <file leaf-file-name="DepthBuffer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/31DepthBuffer/DepthBuffer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LookAtTrianglesWithKeys_ViewVolume.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perspectiveview.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/28perspectiveview/perspectiveview.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perspectiveview.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/28perspectiveview/perspectiveview.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="49" column="7" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perspectiveview_mvp.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perspectiveview_mvpMatrix.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/30perspectiveview_mvpMatrix/perspectiveview_mvpMatrix.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perspectiveview_mvpMatrix.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/30perspectiveview_mvpMatrix/perspectiveview_mvpMatrix.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="85" column="64" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perspectiveview_mvp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LookAtTrianglesWithKeys.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/25LookAtTrianglesWithKeys/LookAtTrianglesWithKeys.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
+            <state relative-caret-position="323">
               <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrthoView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/26OrthoView/OrthoView.js">
+      <file leaf-file-name="DepthBuffer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/31DepthBuffer/DepthBuffer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="479">
+              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -139,8 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HelloCanvas/HelloCanvas.js" />
-        <option value="$PROJECT_DIR$/HelloPoint1/HelloPoint1.html" />
         <option value="$PROJECT_DIR$/HelloPoint1/HelloPoint1.js" />
         <option value="$PROJECT_DIR$/HelloPoint2/HelloPoint2.html" />
         <option value="$PROJECT_DIR$/HelloPoint2/HelloPoint2.js" />
@@ -190,6 +108,8 @@
         <option value="$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.js" />
         <option value="$PROJECT_DIR$/30perspectiveview_mvpMatrix/perspectiveview_mvpMatrix.html" />
         <option value="$PROJECT_DIR$/30perspectiveview_mvpMatrix/perspectiveview_mvpMatrix.js" />
+        <option value="$PROJECT_DIR$/31DepthBuffer/DepthBuffer.html" />
+        <option value="$PROJECT_DIR$/31DepthBuffer/DepthBuffer.js" />
       </list>
     </option>
   </component>
@@ -244,6 +164,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebGL-Programming-Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebGL-Programming-Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebGL-Programming-Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="31DepthBuffer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,12 +498,12 @@
       <workItem from="1514937876620" duration="23000" />
       <workItem from="1516505305037" duration="1830000" />
       <workItem from="1516947653040" duration="8080000" />
-      <workItem from="1517376084795" duration="8401000" />
+      <workItem from="1517376084795" duration="9316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57043000" />
+    <option name="totallyTimeSpent" value="57958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1200" height="1050" extended-state="0" />
@@ -629,21 +563,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HelloRectangle/HelloRectangle.html" />
-    <entry file="file://$PROJECT_DIR$/10TranslatedTriangle/TranslatedTriangle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11RotatedTriangle/RotatedTriangle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00HelloCanvas2d/HelloCanvas2d.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -923,34 +842,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/26OrthoView/OrthoView.js">
+    <entry file="file://$PROJECT_DIR$/31DepthBuffer/perspectiveview_mvpMatrix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js">
+    <entry file="file://$PROJECT_DIR$/30perspectiveview_mvpMatrix/perspectiveview_mvpMatrix.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/28perspectiveview/perspectiveview.html">
+    <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -963,18 +874,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.js">
+    <entry file="file://$PROJECT_DIR$/28perspectiveview/perspectiveview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.html">
+    <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -987,10 +906,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/30perspectiveview_mvpMatrix/perspectiveview_mvpMatrix.html">
+    <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26OrthoView/OrthoView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/31DepthBuffer/DepthBuffer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/31DepthBuffer/DepthBuffer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
           <folding />
         </state>
       </provider>
