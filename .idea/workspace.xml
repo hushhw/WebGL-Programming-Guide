@@ -53,11 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="perspectiveview.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="perspectiveview.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/28perspectiveview/perspectiveview.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+            <state relative-caret-position="175">
+              <caret line="49" column="7" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="perspectiveview_mvp.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="perspectiveview_mvp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="709">
+              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -159,6 +179,8 @@
         <option value="$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js" />
         <option value="$PROJECT_DIR$/28perspectiveview/perspectiveview.html" />
         <option value="$PROJECT_DIR$/28perspectiveview/perspectiveview.js" />
+        <option value="$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.html" />
+        <option value="$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.js" />
       </list>
     </option>
   </component>
@@ -213,6 +235,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebGL-Programming-Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebGL-Programming-Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebGL-Programming-Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="29perspectiveview_mvp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,18 +541,18 @@
       <workItem from="1514937876620" duration="23000" />
       <workItem from="1516505305037" duration="1830000" />
       <workItem from="1516947653040" duration="8080000" />
-      <workItem from="1517376084795" duration="5664000" />
+      <workItem from="1517376084795" duration="7369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54306000" />
+    <option name="totallyTimeSpent" value="56011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1085" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29270634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29270634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -570,8 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HelloRectangle/HelloRectangle.js" />
-    <entry file="file://$PROJECT_DIR$/TranslatedTriangle/TranslatedTriangle.html" />
     <entry file="file://$PROJECT_DIR$/TranslatedTriangle/TranslatedTriangle.js" />
     <entry file="file://$PROJECT_DIR$/HelloTriangle/HelloTriangle.html" />
     <entry file="file://$PROJECT_DIR$/HelloRectangle/HelloRectangle.html" />
@@ -902,8 +936,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/28perspectiveview/perspectiveview.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        <state relative-caret-position="175">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29perspectiveview_mvp/perspectiveview_mvp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
