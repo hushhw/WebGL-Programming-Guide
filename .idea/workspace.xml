@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff7aeead-fca2-40b3-8938-d38da17e4509" name="Default" comment="" />
+    <list default="true" id="ff7aeead-fca2-40b3-8938-d38da17e4509" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js" afterPath="$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js" />
+    </list>
     <ignored path="WebGL编程指南.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LookAtTrianglesWithKeys_ViewVolume.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LookAtTrianglesWithKeys_ViewVolume.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -33,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LookAtTrianglesWithKeys_ViewVolume.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LookAtTrianglesWithKeys_ViewVolume.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+            <state relative-caret-position="550">
+              <caret line="64" column="66" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -469,12 +471,12 @@
       <workItem from="1514937876620" duration="23000" />
       <workItem from="1516505305037" duration="1830000" />
       <workItem from="1516947653040" duration="8080000" />
-      <workItem from="1517376084795" duration="2423000" />
+      <workItem from="1517376084795" duration="2735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51065000" />
+    <option name="totallyTimeSpent" value="51377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1122" height="1050" extended-state="0" />
@@ -826,18 +828,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/25LookAtTrianglesWithKeys/LookAtTrianglesWithKeys.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -850,10 +852,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.html">
+    <entry file="file://$PROJECT_DIR$/27LookAtTrianglesWithKeys_ViewVolume/LookAtTrianglesWithKeys_ViewVolume.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="550">
+          <caret line="64" column="66" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
           <folding />
         </state>
       </provider>
